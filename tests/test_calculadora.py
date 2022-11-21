@@ -1,5 +1,5 @@
 import unittest
-from calculadora.functions import sumar, dividir, restar, multiplicar
+from calculadora.functions import sumar, dividir, restar, multiplicar, elevar
 
 class test_calculadora(unittest.TestCase):
     def test_sumar(self):
@@ -17,6 +17,10 @@ class test_calculadora(unittest.TestCase):
     def test_dividir(self):
         result = dividir(12,3)
         self.assertEqual(result, 4, "El resultado debería ser 4")
+
+    def test_elevar(self):
+        result = elevar(3,3)
+        self.assertEqual(result, 27, "El resultado debería ser 27")   
 
 
 if __name__ == "__main__":
