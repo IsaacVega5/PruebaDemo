@@ -1,6 +1,6 @@
 from functions import *
 
-NameFun = [sumar, restar, multiplicar, dividir]
+NameFun = [sumar, restar, multiplicar, dividir, elevar]
 
 print("-----Calculadora----- \n  \nFunciones:")
 
